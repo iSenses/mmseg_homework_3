@@ -18,3 +18,11 @@
 使用MMDeploy部署语义分割模型（可选）
 
 ## 作业汇报
+
+```sh
+bash run_seg.sh
+```
+- run_seg.sh
+安装mmsegmentation环境并训练
+- train.py
+训练内容
