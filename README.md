@@ -19,6 +19,9 @@
 
 ## 作业汇报
 
+模型来自 pspnet_r50-d8_4xb2-40k_cityscapes-512x1024
+数据集来自
+![斯坦福官网数据集子豪兄加持版](https://zihao-openmmlab.obs.cn-east-3.myhuaweicloud.com/20230130-mmseg/dataset/iccv09Data.tar.gz -O stanford_background.tar.gz)
 ```sh
 bash run_seg.sh
 ```
@@ -26,3 +29,7 @@ bash run_seg.sh
 安装mmsegmentation环境并训练
 - train.py
 训练内容
+- MMSeg2.png
+6000126.png 训练1600iter后的预测(待优化)
+
+模型链接：

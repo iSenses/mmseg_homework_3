@@ -72,6 +72,13 @@ cfg.test_pipeline = [
     dict(type='PackSegInputs')
 ]
 
+cfg.train_dataloader.batch_size = 2
+cfg.train_dataloader.num_workers=0
+cfg.train_dataloader.persistent_workers=False
+cfg.val_dataloader.batch_size = 1
+cfg.val_dataloader.num_workers=0
+cfg.val_dataloader.persistent_workers=False
+
 
 cfg.train_dataloader.dataset.type = cfg.dataset_type
 cfg.train_dataloader.dataset.data_root = cfg.data_root
@@ -118,8 +125,8 @@ from mmseg.apis import init_model, inference_model
 checkpoint_path = '../output/tutorial/iter_800.pth'
 model = init_model(cfg, checkpoint_path, 'cuda:0')
 
-img = mmcv.imread('iccv09Data/images/6000224.jpg')
+img = mmcv.imread('iccv09Data/images/6000124.jpg')
 result = inference_model(model, img)
-f=open ('ouput/result.txt','w')
-f.write(result)
-f.close()
+# f=open ('output/result.txt','w')
+# f.write(result)
+# f.close()
