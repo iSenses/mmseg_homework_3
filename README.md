@@ -22,7 +22,7 @@
 模型来自 pspnet_r50-d8_4xb2-40k_cityscapes-512x1024
 
 数据集来自
-[斯坦福官网数据集子豪兄加持版](https://zihao-openmmlab.obs.cn-east-3.myhuaweicloud.com/20230130-mmseg/dataset/iccv09Data.tar.gz -O stanford_background.tar.gz)
+[斯坦福官网数据集子豪兄加持版](https://zihao-openmmlab.obs.cn-east-3.myhuaweicloud.com/20230130-mmseg/dataset/iccv09Data.tar.gz)
 ```sh
 bash run_seg.sh
 ```
