@@ -32,4 +32,4 @@ bash run_seg.sh
 - MMSeg2.png
 6000126.png 训练1600iter后的预测(待优化)
 
-模型链接：
+模型链接：链接：https://pan.baidu.com/s/1LcfM3gQ1Jqe73t14kc4yUw?pwd=rp1f 
