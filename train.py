@@ -125,7 +125,7 @@ from mmseg.apis import init_model, inference_model
 checkpoint_path = '../output/tutorial/iter_800.pth'
 model = init_model(cfg, checkpoint_path, 'cuda:0')
 
-img = mmcv.imread('iccv09Data/images/6000124.jpg')
+img = mmcv.imread('iccv09Data/images/6000126.jpg')
 result = inference_model(model, img)
 # f=open ('output/result.txt','w')
 # f.write(result)
